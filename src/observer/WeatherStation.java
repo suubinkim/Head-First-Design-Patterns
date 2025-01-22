@@ -15,8 +15,6 @@ public class WeatherStation {
 
         weatherData.setMeasurements(80, 65, 30.4f);
 
-        weatherData.measurementsChanged(); //갱신됨을 알림
-
         System.out.println(weatherData.getObservers()); //등록 옵저버 확인
     }
 }
